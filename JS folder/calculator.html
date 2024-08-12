@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaim</title>
+</head>
+<body>
+  
+   <input type="text" name="" id="v1"><br><br>
+   <input type="text" name="" id="v2"><br><br>
+   <input type="text" name="" id="z"><br><br>
+
+   <input type="button" value="+" onclick="add()">
+   <input type="button" value="-" onclick="sub()">
+   <input type="button" value="*" onclick="mul()">
+   <input type="button" value="/" onclick="div()">
+   <input type="button" value="%" onclick="mod()">
+
+    <script>
+function add()
+
+{
+x=document.getElementById("v1").value
+y=document.getElementById("v2").value
+z=parseInt(x)+parseInt(y)
+
+document.getElementById("z").value=z
+}
+function sub()
+
+{
+x=document.getElementById("v1").value
+y=document.getElementById("v2").value
+z=parseInt(x)-parseInt(y)
+
+document.getElementById("z").value=z
+}
+function mul()
+
+{
+x=document.getElementById("v1").value
+y=document.getElementById("v2").value
+z=parseInt(x)*parseInt(y)
+
+document.getElementById("z").value=z
+}
+function div()
+
+{
+x=document.getElementById("v1").value
+y=document.getElementById("v2").value
+z=parseInt(x)/parseInt(y)
+
+document.getElementById("z").value=z
+}
+function mod()
+
+{
+x=document.getElementById("v1").value
+y=document.getElementById("v2").value
+z=parseInt(x)%parseInt(y)
+
+document.getElementById("z").value=z
+}
+
+
+
+</script>
+</body>
+</html>

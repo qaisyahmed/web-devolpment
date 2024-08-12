@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: black;
+        background-color: white;
+    }
+    
+    .navbar {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        position: sticky;
+        top: 0px;
+    }
+    
+    .navbar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navbar ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    .navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    header {
+        background-color: #555;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    header p {
+        margin: 10px 0;
+    }
+    
+    .recipe {
+        width: 80%;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .recipe h2 {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        border-radius: 5px 5px 0 0;
+        margin: 0;
+    }
+    
+    .recipe img {
+        width: 100%;
+        height: auto;
+        border-radius: 0 0 5px 5px;
+    }
+    
+    .recipe .content {
+        padding: 20px;
+    }
+    
+    .recipe .content h3 {
+        margin-top: 0;
+    }
+    
+    .recipe .content ul {
+        list-style-type: circle;
+        padding-left: 20px;
+    }
+    
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    footer h2 {
+        margin-top: 0;
+    }
+    </style>
+</head>
+<body>
+    <header id="home">
+        <h1>Welcome to Recipe Book</h1>
+        <p>Discover a world of different dishes. Here, we provide you with easy and famous recipes from around the world.</p>
+    </header>
+    <nav class="navbar" class="sticky">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <ul>
+        <h1 id="home"><b>Welcome to Recipe Book</b></h1>
+        <li style="list-style-type:circle;"><p><i>Here is a world of different dishes recipes. we give you many easy recipes of the dishes which are very famous in the world.</i></p></li>
+            <li style="list-style-type:circle;"> <p><i> Recipes hold significant value in the realm of random cooking experiments, serving as both a foundation and an inspiration.</i></p></li>
+                <li style="list-style-type:circle;"> <p><i> They provide a structured guide that ensures the successful combination of ingredients and techniques, reducing the risk of culinary failures.</i></p></li>
+                    <li style="list-style-type:circle;"> <p><i> In random or spontaneous cooking, having a recipe as a reference point can spark creativity, allowing cooks to innovate while maintaining a balance of flavors and textures.</i></p></li>
+                        <li style="list-style-type:circle;"> <p><i> This balance between guidance and experimentation not only enhances the cooking experience but also encourages learning and mastery of new skills. Ultimately, recipes enrich random cooking by blending precision with creativity, leading to delightful and unexpected culinary outcomes</i></p></li>
+        </ul>
+        
+    
+    
+    
+    <main>
+        <section class="recipe" id="recipes">
+            <h2>Recipe 1: Chicken Soup</h2>
+            <img src="Chikken soup.jpg" style="width: 970px; height: 500px;">
+            <div class="content">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1 lb boneless, skinless chicken breast or thighs</li>
+                    <li>4 cups chicken broth</li>
+                    <li>1 large onion, chopped</li>
+                    <li>2 cloves garlic, minced</li>
+                    <li>1 teaspoon dried thyme</li>
+                    <li>Salt and pepper, to taste</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ul>
+                    <li>In a large pot, sauté the chopped onion and minced garlic until softened.</li>
+                    <li>Add the chicken, chicken broth, thyme, salt, and pepper. Bring to a boil, then reduce heat and simmer for 20-25 minutes or until the chicken is cooked through.</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="recipe" id="recipes">
+            <h2>Recipe 2: Grilled Cheese Sandwich</h2>
+            <img src="grilled sandwich.jpg" style="width: 970px; height: 500px;">
+            <div class="content">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>2 slices bread</li>
+                    <li>1-2 slices cheese (such as cheddar, American, or mozzarella)</li>
+                    <li>1 tablespoon butter or non-stick cooking spray</li>
+                </ul>
+                <h3>Instructions:</h3>
+                <ul>
+                    <li>Butter or spray one side of each bread slice. Place one slice, butter-side down, in a skillet or griddle over medium heat.</li>
+                    <li>Place one or two slices of cheese on top of the bread in the skillet. Place the second bread slice, butter-side up, on top of the cheese.</li>
+                    <li>Cook for 2-3 minutes or until the bread is golden brown and the cheese is melted. Flip and cook for an additional 2-3 minutes or until the other side is also golden brown.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <footer id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Recipe Book, your ultimate source for delicious recipes! Here we provide complete recipes for two dishes. It's a complete guide for beginners to make these dishes.</p>
+        <p>While the spontaneity of random cooking can be thrilling, incorporating recipes ensures a successful and enjoyable culinary journey. Recipes act as a roadmap, helping cooks navigate their creativity while achieving delicious results.</p>
+    </footer>
+</body>
+</html>
